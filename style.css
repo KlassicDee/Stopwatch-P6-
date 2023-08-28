@@ -1,0 +1,50 @@
+ body{
+    background-image:url(images/pexels-pixabay-531880.jpg);
+    
+    
+} 
+
+.head{
+    text-align: center;
+}
+
+.head h1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight:bold;
+font-size: 35px; 
+background-color: rgb(133, 226, 226);
+}
+
+.head img{
+    width: 80px;
+}
+
+.stopwatch{
+    margin-top: 10px;
+}
+.stopwatch h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:300;
+    font-size: 100px; 
+    padding-bottom: 5px;
+    
+    
+}
+
+.images{
+    display: flex;   
+flex-direction: row;
+    justify-content:space-evenly;
+    cursor: pointer;
+    height: 50px;
+   margin:0 20px;
+   
+}
+.images img :hover{
+    transition: .3s;
+    background-color: aqua;
+}
+.images img:nth-child(2){
+    height: 100px;
+}
